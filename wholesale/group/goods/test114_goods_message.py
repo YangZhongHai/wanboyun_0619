@@ -4,7 +4,6 @@ from tool.random.randomGoods import RandomGoods
 from tool.random.randomMember import RandomMember
 from tool.time.loadingTime import LoadTime
 from wholesale.group.procurement.login import Login
-
 url = Login.location(1)
 login_name = Login.name(1)
 login_pwd = Login.password(1)
@@ -16,6 +15,7 @@ time1 = LoadTime.time1(1)
 time2 = LoadTime.time2(1)
 time3 = LoadTime.time3(1)
 person_name = RandomMember.member_name(1)
+
 
 # 批发商品资料
 def test114():
