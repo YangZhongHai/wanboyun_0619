@@ -7,7 +7,7 @@ from tool.addMember.randomMember import RandomMember
 from tool.time.nowTime import addTime
 from tool.time.loadingTime import LoadTime
 from tool.time.randomPhone import RandomPhone
-from wholesale.group.procurement.login import Login
+from tool.loginFile.login import Login
 
 url = Login.location(1)
 login_name = Login.name(1)

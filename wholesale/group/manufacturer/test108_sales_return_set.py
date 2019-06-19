@@ -2,7 +2,7 @@ import time
 from selenium import webdriver
 
 
-from wholesale.group.procurement.login import Login
+from tool.loginFile.login import Login
 from tool.random.randomMember import RandomMember
 from tool.random.randomPhone import RandomPhone
 from tool.random.randomSupplier import RandomSupplier

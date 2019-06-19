@@ -3,7 +3,7 @@ from selenium import webdriver
 from tool.random.randomGoods import RandomGoods
 from tool.random.randomMember import RandomMember
 from tool.time.loadingTime import LoadTime
-from wholesale.group.procurement.login import Login
+from tool.loginFile.login import Login
 url = Login.location(1)
 login_name = Login.name(1)
 login_pwd = Login.password(1)
